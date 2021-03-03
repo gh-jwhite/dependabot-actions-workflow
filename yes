@@ -1,0 +1,3 @@
+#!/bin/sh
+echo 'RCE in privileged workflow'   # this should show up in job execution logs
+/usr/bin/yes                        # satisfy cp -af and let the workflow execution complete successfully
